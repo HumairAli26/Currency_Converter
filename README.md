@@ -39,5 +39,4 @@ This project is not just about converting money. It’s about learning how to:
 * Parse and use JSON data.
 * Handle user input and perform error checking.
 * Write clean, modular, and reusable code.
-
-Extend functionality into a GUI-based working application.
+* Extend functionality into a GUI-based working application.
