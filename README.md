@@ -11,47 +11,33 @@ The currency converter is designed to be lightweight, efficient, and beginner-fr
 This project is a great fit for:
 
 💼 Finance enthusiasts who need quick conversions.
-
 ✈️ Travelers who want real-time currency exchange info.
-
 🎓 Students and learners practicing Python with APIs and JSON.
-
 🛠️ Developers who want to integrate currency conversion into larger apps.
 
 🔹 Features
 
-Fetches live exchange rates from the internet.
-
-Supports 150+ world currencies.
-
-Converts any amount between two selected currencies.
-
-Beginner-friendly, with clean and well-documented code.
-
-Planned upgrade: a Graphical User Interface (GUI) to make the tool interactive and user-friendly.
-
-Future scope: Packaging the converter into a working desktop application so it can run independently without needing a Python environment.
+* Fetches live exchange rates from the internet.
+* Supports 150+ world currencies.
+* Converts any amount between two selected currencies.
+* Beginner-friendly, with clean and well-documented code.
+* Planned upgrade: a Graphical User Interface (GUI) to make the tool interactive and user-friendly.
+* Future scope: Packaging the converter into a working desktop application so it can run independently without needing a Python environment.
 
 🔹 How It Works
 
-The program uses Python’s requests library (or the forex-python module).
-
-It calls a free currency API that provides the latest exchange rates.
-
-Rates are stored in a dictionary-like structure where each key is a currency code (USD, EUR, PKR, etc.).
-
-The script calculates the converted value based on the selected currencies and amount.
+1. The program uses Python’s requests library (or the forex-python module).
+2. It calls a free currency API that provides the latest exchange rates.
+3. Rates are stored in a dictionary-like structure where each key is a currency code (USD, EUR, PKR, etc.).
+4. The script calculates the converted value based on the selected currencies and amount.
 
 🔹 Why This Project?
 
 This project is not just about converting money. It’s about learning how to:
 
-Work with REST APIs in Python.
-
-Parse and use JSON data.
-
-Handle user input and perform error checking.
-
-Write clean, modular, and reusable code.
+* Work with REST APIs in Python.
+* Parse and use JSON data.
+* Handle user input and perform error checking.
+* Write clean, modular, and reusable code.
 
 Extend functionality into a GUI-based working application.
